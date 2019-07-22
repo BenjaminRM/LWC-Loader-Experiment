@@ -2,9 +2,9 @@ import { LightningElement, api, track } from 'lwc';
 
 export default class App extends LightningElement {
 
-    @track showSimple = true;
-    @track showFancy = false;
-    timeShown;
+    // @track showSimple = true;
+    // @track showFancy = false;
+    // timeShown;
 
     connectedCallback() {
         // let spinnerChoice = Math.floor(Math.random() * 2);
